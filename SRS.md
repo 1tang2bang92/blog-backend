@@ -122,6 +122,7 @@ UID: int
 TITLE: string
 BODY: string | XML #차후 선택예정
 CREATE_AT: datetime
+UPDATE_AT: datetime
 HIDDEN_AT: datetime
 DELETE_AT: datetime? #soft delete 하자 혹시모르니까
 Category
